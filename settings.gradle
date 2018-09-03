@@ -1,0 +1,8 @@
+include ':app'
+
+
+include ':library'
+project(':library').projectDir = new File(settingsDir, '../../OMAndroid/OMAndroid/library')
+
+include ':omview'
+project(':omview').projectDir = new File(settingsDir, '../../OMAndroid/OMAndroid/omview')
